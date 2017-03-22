@@ -15,7 +15,7 @@ public class Elfo extends Personaje {
 	}
 	
 	 public void dibujar(int x, int y, Graphics g) {
-		 		g.drawImage(imagen,300, 10, null);
+		 		g.drawImage(imagen,300, 100, null);
 		   	     arma.dibujar(50, 100, g);
 		   	     escudo.dibujar(550, 100, g);
 	       
